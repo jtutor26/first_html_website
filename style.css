@@ -37,7 +37,7 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-ul{
+#hobbies ul{
     margin-left: 5%;
     
 }
@@ -52,4 +52,16 @@ table, th, td {
 
 img {
     border: 2px solid white;
+}
+
+#main-nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    list-style-type: none;
+    text-align: center;
 }
