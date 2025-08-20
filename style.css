@@ -16,7 +16,7 @@
     color: black;
 }
 
-.paragragh{
+.paragragh {
     margin-left: 5%;
     margin-right: 5%;
     font-size: medium;
@@ -35,7 +35,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#hobbies ul{
+#hobbies .hobbies-list {
     margin-left: 5%; 
     margin-right: 5%;
     padding: 1%;
@@ -54,7 +54,7 @@
     border: 2px solid white;
 }
 
-#main-nav ul {
+#main-nav .navigation-table {
     display: grid;
     background-color: #333;
     padding: 10px;
@@ -69,13 +69,13 @@
     border-top: 2px solid white;
 }
 @media screen and (max-width: 600px) {
-    #main-nav ul {
+    #main-nav .navigation-table {
         grid-template-rows: repeat(5, 1fr);
     }
 }
 
 @media screen and (min-width: 600px) {
-    #main-nav ul {
+    #main-nav .navigation-table {
         grid-template-columns: repeat(5, 1fr);
     }
 }
